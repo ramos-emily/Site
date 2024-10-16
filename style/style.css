@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 250;
+    font-style: normal;
+    color: white;
+}
+
+hr { 
+    border-width: 0; 
+    height: 10px;
+    border-top-width: 1.2px;
+    
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+h3 {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+p {
+    font-weight: bold
+}
+
+button {
+    background: transparent;
+    border: none; 
+    cursor: pointer; 
+    align-items: center;
+    
+}
+
+.anuncio {
+    display: flex;
+    justify-content: center;
+    min-height: 1.8rem;
+    background-color: rgba(218, 125, 203, 1);
+}
+
+.anuncio p {
+    margin: 0.5rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.container1{
+    display: flex;
+    background-color: rgba(191, 117, 179, 1);
+    align-items: center;
+    height: 4.3rem;
+
+}
+
+.infoBar1 {
+    display: flex; 
+    gap: 50px;
+    padding-left: 7rem;
+    padding-right: 2rem;
+
+}
+
+.infoBar2{
+    display: flex; 
+    gap: 50px;
+    padding-left: 5rem;
+    padding-right: 10rem;
+}
+
+h6 {
+    color: black;
+}
+
+.pais{
+    display: flex; 
+    padding-left: 14rem;
+}
+
+.pais img {
+    width: 1.5rem;
+    height: 1rem;
+    gap: 1rem;
+}
+
+.lupadiv{
+    display: flex; 
+    gap: 50px;
+    padding-left: 1rem;
+    padding-right: 4rem;
+}
+
+.lupa {
+    display: block;
+    width: 25px;
+    height: 25px;
+
+}
+
+.logo{
+
+    width: 12rem;
+    height: 3rem;
+    padding-left: 3rem;
+    padding-right: 1rem;
+
+}
+
+.contNovid {
+    display: none;
+    position: absolute;
+   
+}
+
+.novid:hover + .contNovid {
+    display: block;
+}
+
+.contAdulto {
+    display: none;
+    position: absolute;
+    z-index: 10;
+}
+
+.adulto:hover + .contAdulto {
+    display: block;
+}
+
+.contInfan {
+    display: none;
+    position: absolute;
+    z-index: 10;
+}
+
+.infan:hover + .contInfan {
+    display: block;
+}
+
+.contSale {
+    display: none;
+    position: absolute;
+    z-index: 10;
+}
+/* hover + serve para pegar o conteudo da proxima div */
+.sale:hover + .contSale {
+    display: block;
+}
+
+.contAcess {
+    display: none;
+    position: absolute;
+    z-index: 10;
+}
+
+.acess:hover + .contAcess {
+    display: block;
+}
+
+.contGif {
+    display: none; /* fica inv */
+    position: absolute;
+    z-index: 10;
+}
+
+.gifts:hover + .contGif{
+    display: block;
+}
+
+.itens {
+    width: 15px;
+}
+
+
+.contPerson {
+    display: none;
+    position: absolute;
+    z-index: 10;
+}
+
+.person:hover + .contPerson {
+    display: block;
+}
+
+.contPerson {
+    display: none;
+    position: absolute;
+    z-index: 10;
+}
+
+.person:hover + .contPerson {
+    display: block;
+}
+
+.contPerson {
+    display: none;
+    position: absolute;
+    z-index: 10;
+}
+
+.person:hover + .contPerson {
+    display: block;
+}
+
+.containerNav1{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+section{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container-bailarina{
+    display: flex;
+}
+
+.bailarina{
+    width: 100%;
+    height: 100%;
+}
+
+.icons-container img{
+    height: 1.2rem;
+    width: 1.2rem;
+    
+}
+
+.container-pais-lupa{
+    display: flex;
+    
+ 
+}
+
+.container-pagamentos p {
+    color: black;
+    padding-left: 3.5rem;
+    font-size: small;
+
+}
+
+.container-pagamentos {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5rem;    
+    padding-right: 5rem;
+    height: 9rem;
+    align-items: center;
+
+}
+
+.container-pagamentos img{
+    width: 3rem;
+}
+
+.container-sapatilhas {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: rgba(239, 173, 229, 1);
+    
+}
+
+.container-sapatilhas p{
+    color: black;
+    font-weight: 250;
+    font-weight: bold
+
+}
+
+.container-Introsapatilhas h1 {
+    color: black;
+    font-weight: 450;
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: rgba(239, 173, 229, 1);
+    
+}
+
+.meio {
+    background-color: rgba(239, 173, 229, 1);
+    height: 100%;
+    width: 100%;
+}
+
+.pe {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+footer{
+    background-color: rgba(239, 173, 229, 1);
+
+}
+ /* a partir daqui, peguei modelo pronto */
+
+.rodape {
+    display: flex;
+    justify-content: space-between;    
+}
+
+
+
+
+
+
