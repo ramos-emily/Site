@@ -9,10 +9,14 @@
     color: white;
 }
 
+body{
+    background-color: rgba(239, 173, 229, 1);
+}
+
 hr { 
     border-width: 0; 
-    height: 10px;
-    border-top-width: 1.2px;
+    height: 0.62rem;
+    border-top-width: 0.075rem;
     
 }
 
@@ -71,7 +75,7 @@ button {
 
 .infoBar2{
     display: flex; 
-    gap: 50px;
+    gap: 3.12rem;
     padding-left: 5rem;
     padding-right: 10rem;
 }
@@ -93,15 +97,15 @@ h6 {
 
 .lupadiv{
     display: flex; 
-    gap: 50px;
+    gap: 3.12rem;
     padding-left: 1rem;
     padding-right: 4rem;
 }
 
 .lupa {
     display: block;
-    width: 25px;
-    height: 25px;
+    width: 1.56rem;
+    height: 1.56rem;
 
 }
 
@@ -114,100 +118,7 @@ h6 {
 
 }
 
-.contNovid {
-    display: none;
-    position: absolute;
-   
-}
 
-.novid:hover + .contNovid {
-    display: block;
-}
-
-.contAdulto {
-    display: none;
-    position: absolute;
-    z-index: 10;
-}
-
-.adulto:hover + .contAdulto {
-    display: block;
-}
-
-.contInfan {
-    display: none;
-    position: absolute;
-    z-index: 10;
-}
-
-.infan:hover + .contInfan {
-    display: block;
-}
-
-.contSale {
-    display: none;
-    position: absolute;
-    z-index: 10;
-}
-/* hover + serve para pegar o conteudo da proxima div */
-.sale:hover + .contSale {
-    display: block;
-}
-
-.contAcess {
-    display: none;
-    position: absolute;
-    z-index: 10;
-}
-
-.acess:hover + .contAcess {
-    display: block;
-}
-
-.contGif {
-    display: none; /* fica inv */
-    position: absolute;
-    z-index: 10;
-}
-
-.gifts:hover + .contGif{
-    display: block;
-}
-
-.itens {
-    width: 15px;
-}
-
-
-.contPerson {
-    display: none;
-    position: absolute;
-    z-index: 10;
-}
-
-.person:hover + .contPerson {
-    display: block;
-}
-
-.contPerson {
-    display: none;
-    position: absolute;
-    z-index: 10;
-}
-
-.person:hover + .contPerson {
-    display: block;
-}
-
-.contPerson {
-    display: none;
-    position: absolute;
-    z-index: 10;
-}
-
-.person:hover + .contPerson {
-    display: block;
-}
 
 .containerNav1{
     display: flex;
@@ -228,7 +139,7 @@ section{
 
 .bailarina{
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 .icons-container img{
@@ -257,7 +168,6 @@ section{
     padding-right: 5rem;
     height: 9rem;
     align-items: center;
-
 }
 
 .container-pagamentos img{
@@ -268,9 +178,7 @@ section{
     display: flex;
     justify-content: center;
     padding-top: 3rem;
-    padding-bottom: 3rem;
-    background-color: rgba(239, 173, 229, 1);
-    
+    padding-bottom: 3rem;   
 }
 
 .container-sapatilhas p{
@@ -286,32 +194,46 @@ section{
     display: flex;
     justify-content: center;
     padding-top: 3rem;
-    padding-bottom: 3rem;
-    background-color: rgba(239, 173, 229, 1);
-    
+    padding-bottom: 3rem;  
 }
 
-.meio {
-    background-color: rgba(239, 173, 229, 1);
-    height: 100%;
-    width: 100%;
-}
 
-.pe {
+
+.footer-bailarinas {
     height: 100%;
     width: 100%;
     display: flex;
 }
-
-footer{
-    background-color: rgba(239, 173, 229, 1);
-
-}
- /* a partir daqui, peguei modelo pronto */
-
+ 
 .rodape {
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+.rodape p, a, h3, ul{
+    color: rgba(113, 109, 109, 1);
+    list-style-type: none;
+} 
+
+.custom {
+    background-color: transparent;
+    border: rgba(239, 173, 229, 1);
+}
+
+input {
+    color: black;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    
+    text-align: justify;
 }
 
 
