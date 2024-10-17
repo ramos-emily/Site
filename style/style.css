@@ -228,11 +228,14 @@ input {
     color: black;
 }
 
+label{
+    color: rgba(113, 109, 109, 1);
+}
+
 .footer-content{
     display: flex;
     flex-direction: column;
     row-gap: 1rem;
-    
     text-align: justify;
 }
 
