@@ -174,12 +174,33 @@ section{
     width: 3rem;
 }
 
+#seta1 {
+    position: absolute;
+    padding: 10px;
+    box-shadow: 2px -2px 0 1px;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+    transform: rotate(45deg);
+
+}
+
+#seta2 {
+    position: absolute;
+    padding: 10px;
+    box-shadow: 2px -2px 0 1px;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+    transform: rotate(-135deg);
+}
+
 .container-sapatilhas {
     display: flex;
     justify-content: center;
     padding-top: 3rem;
     padding-bottom: 3rem;   
 }
+
+
 
 .container-sapatilhas p{
     color: black;
