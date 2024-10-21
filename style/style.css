@@ -182,7 +182,7 @@ section{
     border: solid transparent;
     border-width: 0 0 2px 2px;
     transform: rotate(45deg);
-
+    margin: 0 -50px;
 }
 
 #seta2 {
@@ -192,6 +192,7 @@ section{
     border: solid transparent;
     border-width: 0 0 2px 2px;
     transform: rotate(-135deg);
+    margin:0 50px;
 }
 
 .container-sapatilhas {
@@ -199,9 +200,12 @@ section{
     justify-content: center;
     padding-top: 3rem;
     padding-bottom: 3rem;   
+    align-items: center;
 }
 
-
+.container-sapatilhas div{
+    display: flex;
+}
 
 .container-sapatilhas p{
     color: black;
